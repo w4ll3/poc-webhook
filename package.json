@@ -10,14 +10,15 @@
   "author": "Spruce Systems Inc.",
   "license": "MIT",
   "dependencies": {
+    "@celo/contractkit": "^1.2.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "didkit-wasm-node": "file:/home/greg_/Projects/didkit/lib/web/pkg/node",
+    "didkit-wasm-node": "^0.1.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.5.0",
-    "pug": "^3.0.2",
-    "@celo/contractkit": "^1.2.0"
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
