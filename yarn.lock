@@ -1325,10 +1325,10 @@ destroy@~1.0.4:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-didkit-wasm-node@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/didkit-wasm-node/-/didkit-wasm-node-0.1.4.tgz#806e1f672d8721e2e101560e1a7af794ac6078cf"
-  integrity sha512-Ev2pChUFxBi/aNg7HA66vWxGj+W4oO0RghFmoz0XlrSFHMPt+mWu0/UpnxUK1mfODOkM30J0LnYoXuHCf1qvkA==
+didkit-wasm-node@^0.1.5-celo:
+  version "0.1.5-celo"
+  resolved "https://registry.yarnpkg.com/didkit-wasm-node/-/didkit-wasm-node-0.1.5-celo.tgz#e6260a7dd2ae84347ac2383ac03b3da71a3fd3a4"
+  integrity sha512-cT0f5JaCeEnwEc6QjHxruJFmcxfXujo8IX9serS7iT6eD6yElpFtPGjj0r6SoJzWTNyl3Qx6YmeHjx2mvXvdDQ==
 
 diff@3.5.0:
   version "3.5.0"
