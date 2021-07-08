@@ -12,8 +12,11 @@ const kit = newKit(networks.baklava);
 export const verify = async (credential: any): Promise<string> => {
   const validators = await kit.contracts.getValidators();
 
-  // get current signers
-  const signerAdresses = await validators.currentSignerSet();
+  // get current signers and map it to lowercase since this is how the credential
+  // saves the address
+  const signerAdresses = (await validators.currentSignerSet()).map((e) =>
+    e.toLocaleLowerCase()
+  );
 
   // get credential's issuer address
   const issuerAddress = credential.issuer.split(":").pop();
