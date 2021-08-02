@@ -21,9 +21,6 @@ app.use(urlencoded({ extended: false }));
 app.use(json());
 app.set("view engine", "pug");
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
 app.use("/api", router);
 
 app.listen(PORT, () => {
